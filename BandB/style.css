@@ -1,0 +1,51 @@
+/*
+  Author: April Bollinger
+  Date:   07/24/2020
+  Project: Bed and Breakfast
+*/
+
+
+body{
+  background-image: url(images/leaves.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  font-family: 'Dancing Script', cursive;
+  text-align: center; padding-top: 20px;
+}
+
+.Amenities {
+  align-content: center;
+  margin: auto;
+  margin-top: 0px;
+}
+
+
+footer {
+  background-color: pink;
+  color: black;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+form {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.fa-circle {
+  font-size: 0.5rem;
+}
+
+@media screen and (max-width: 772px) {
+
+  .gmap {
+    width: 400px;
+  }
+
+}
